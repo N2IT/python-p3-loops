@@ -12,7 +12,18 @@ def happy_new_year():
 
 def square_integers(int_list):
     # code goes here!
-    pass
+    # takes a list of intergers and returns a list of squared elements
+
+    # Standar ForLoop
+    # ints_squared = list()
+    # for ints in int_list:
+    #     int_squared = ints * ints
+    #     ints_squared.append(int_squared)
+    
+    # List Comprehension
+    ints_squared = [ints * ints for ints in int_list]
+    
+    return ints_squared
 
 def fizzbuzz():
     # code goes here!
